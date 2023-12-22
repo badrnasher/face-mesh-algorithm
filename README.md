@@ -56,5 +56,5 @@ The script uses the mediapipe library for face mesh detection and cv2 for video 
 Adjust parameters such as image_size, static_image_mode, max_num_faces, and confidence_threshold based on your requirements.
 Customize the drawing specifications for face mesh landmarks, tessellation, contours, and irises.
 
-![Face Mesh Demo]([https://example.com/path/to/your/demo.gif](https://github.com/badrnasher/face-mesh-algorithm/blob/main/face_mesh.gif)https://github.com/badrnasher/face-mesh-algorithm/blob/main/face_mesh.gif)
+![Face Mesh Demo]([https://example.com/path/to/your/demo.gif](https://github.com/badrnasher/face-mesh-algorithm/blob/main/face_mesh.gif)
 
