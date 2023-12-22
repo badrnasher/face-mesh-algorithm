@@ -33,26 +33,28 @@ The script uses the mediapipe library for face mesh detection and cv2 for video 
 
 1 - Environment Setup:
 
--Import necessary libraries (cv2, mediapipe).
--Initialize parameters like image size, static image mode, max number of faces, and confidence threshold.
+- Import necessary libraries (cv2, mediapipe).
+- Initialize parameters like image size, static image mode, max number of faces, and confidence threshold.
 
 2 - Capture Video:
 
--Access the webcam using cv2.VideoCapture.
--Set up video capture parameters.
+- Access the webcam using cv2.VideoCapture.
+- Set up video capture parameters.
 
 3 - Face Mesh Detection:
 
--Initialize the MediaPipe Face Mesh model.
--Process each frame from the webcam feed to detect facial landmarks.
--Draw the face mesh on the frame using cv2 drawing functions.
+- Initialize the MediaPipe Face Mesh model.
+- Process each frame from the webcam feed to detect facial landmarks.
+- Draw the face mesh on the frame using cv2 drawing functions.
 
 4 - Display and Termination:
 
--Display the annotated frame with the face mesh.
--Exit the application on the 'q' key press.
+- Display the annotated frame with the face mesh.
+- Exit the application on the 'q' key press.
 
 ## Customization
 Adjust parameters such as image_size, static_image_mode, max_num_faces, and confidence_threshold based on your requirements.
 Customize the drawing specifications for face mesh landmarks, tessellation, contours, and irises.
-Acknowledg
+
+![Face Mesh Demo]([https://example.com/path/to/your/demo.gif](https://github.com/badrnasher/face-mesh-algorithm/blob/main/face_mesh.gif)https://github.com/badrnasher/face-mesh-algorithm/blob/main/face_mesh.gif)
+
